@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <nav-bar />
+  <div class="home-wrapper">
+    <b-container fluid>
+      <b-row>
+        <b-col><nav-bar /></b-col>
+        <!-- <b-col>2 of 3</b-col>
+    <b-col>3 of 3</b-col> -->
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -14,3 +20,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.home-wrapper {
+  background-color: rgb(24, 24, 24);
+}
+</style>
