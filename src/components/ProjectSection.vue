@@ -16,23 +16,23 @@
       </b-card>
     </b-card-group> -->
     <div class="main-section">
-  <div class="card">
+  <div class="card" v-for="project in projects" :key="project.id">
     <div>
-      <time>2022</time>
-      <a class="card-header" href="#">Keyboard Accordian</a>
-      <p>Play the accordion with your keyboard!</p>
+      <time>{{project.year}}</time>
+      <a class="card-header" href="#">{{project.title}}</a>
+      <p>{{project.description}}</p>
     </div>
     <div class="anchored links">
-      <a class="button" href="#">Article</a>
-      <a class="button flex" href="#">Demo</a>
+      <a class="button" :href="project.articleLink">Article</a>
+      <a class="button flex" :href="project.demoLink">Demo</a>
     </div>
   </div>
+  <!-- <div class="card"></div>
   <div class="card"></div>
   <div class="card"></div>
   <div class="card"></div>
   <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
+  <div class="card"></div> -->
 </div> 
     </div>
 </template>
@@ -43,10 +43,10 @@ export default {
   data(){
     return  {
       projects: [
-        {id: "1", title: "Project1", year: "February 15, 2023", description: "Description", demoLink: "#"},
-        {id: "2", title: "Project2", year: "February 15, 2023", description: "Description", demoLink: "#"},
-        {id: "3", title: "Project3", year: "February 15, 2023", description: "Description", demoLink: "#"},
-        {id: "4", title: "Project4", year: "February 15, 2023", description: "Description", demoLink: "#"},
+        {id: "1", title: "Project1", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
+        {id: "2", title: "Project2", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
+        {id: "3", title: "Project3", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
+        {id: "4", title: "Project4", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
       ],
     }
   },
@@ -121,8 +121,7 @@ button {
   background: #181818;
 }
 .card {
-  width: 300px;
-  height: 280px;
+  min-width: 400px;
   margin: 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -145,7 +144,7 @@ button {
   color: white;
   display: block;
   font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.3;
   margin: 0.1rem 0 0.5rem;
@@ -155,10 +154,10 @@ button {
 .card p {
     color: #999;
     font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .links {
     display: flex;
@@ -184,16 +183,21 @@ a.button {
     white-space: nowrap;
     text-decoration: none;
 }
-@media screen and (max-width: 900px){
+a.button:hover {
+  border: 1px solid #3d3d3d;
+}
+@media screen and (max-width: 912px){
   .projects {
   font-size: 2rem;
   font-weight: 700;
+}
+.card {
+  min-width: 340px;
 }
 }
 @media screen and (max-width: 790px){
   .card {
   width: 100%;
-  height: 280px;
   margin: 16px;
   border: 1px solid #ccc;
   border-radius: 8px;

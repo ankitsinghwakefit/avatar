@@ -5,8 +5,7 @@
       <b-row>
         <b-col><nav-bar /></b-col>
       </b-row>
-      <hero-section />
-      <project-section />
+      <about-section />
     </b-container>
     <footer-section />
   </div>
@@ -15,16 +14,15 @@
 <script>
 // @ is an alias to /src
 import NavBar from "@/components/NavBar.vue";
-import HeroSection from "@/components/HeroSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
-import ProjectSection from "@/components/ProjectSection.vue";
+// import HeroSection from "@/components/HeroSection.vue";
+import AboutSection from "@/components/AboutSection.vue";
 export default {
-  name: "HomeView",
+  name: "AboutView",
   components: {
     NavBar,
-    HeroSection,
-    ProjectSection,
-    FooterSection
+    AboutSection,
+    FooterSection,
   },
 };
 </script>

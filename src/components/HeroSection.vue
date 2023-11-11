@@ -2,11 +2,13 @@
   <div>
     <div class="hero-container">
       <div md class="intro">
-      <h1>Hey, I'm Ankit!</h1><br />
-      <h4>Welcome to my digital garden. 🌱</h4><br />
-      <h4>I'm a software developer in India. I make <a href="#">open-source projects</a> and <a href="#">write</a> about code, design, and life. I like accordions, drawing, sci-fi, reading, and gaming.</h4>
+        <h1>Hey, I'm Ankit!</h1><br />
+        <h4>Welcome to my digital garden. 🌱</h4><br />
+        <h4>I'm a software developer in India. I make <a href="#">open-source projects</a> and <a href="#">write</a> about code, design, and life. I like accordions, drawing, sci-fi, reading, and gaming.</h4>
       </div>
-      <div md class="image"><img src="@/assets/ram.png" alt="ram"></div>
+      <div md class="image">
+        <img src="@/assets/ram.png" alt="ram">
+      </div>
     </div>
   </div>
 </template>
@@ -14,7 +16,7 @@
 <style scoped>
 .hero-container {
   display: flex;
-      align-items: center;
+  align-items: center;
 }
 .intro {
   width: 50%;

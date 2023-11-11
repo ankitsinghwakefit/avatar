@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#" active>About</b-navbar-brand>
+      <b-navbar-brand active :to="{name: 'about'}">About</b-navbar-brand>
       <b-navbar-brand href="#">Projects</b-navbar-brand>
           <b-navbar-brand href="#">Journey</b-navbar-brand>
           <b-navbar-brand href="#">Github</b-navbar-brand>
@@ -30,6 +30,9 @@
 .navbar-brand {
   color: #bbbbbb !important;
   font-size: 18px !important;
+}
+.navbar-brand:hover {
+  border-bottom: 3px solid #bbb;
 }
 .nav-link {
 font-size: 20px !important;

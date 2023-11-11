@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <home-view />
+    <router-view />
   </div>
 </template>
 
 <script>
-import HomeView from "@/views/HomeView.vue";
 export default {
-  components: {
-    HomeView,
-  },
 };
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
   background-color: rgb(24, 24, 24);
+  font-family: Inter,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 }
 </style>
