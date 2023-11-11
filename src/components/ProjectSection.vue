@@ -1,0 +1,208 @@
+<template>
+<div>
+  <div class="project-container">
+    <div class="projects">Latest Projects</div>
+    <div class="button"><button>View All</button></div>
+  </div>
+    <!-- <div class="project-section">
+      <div class="project-box" v-for="project in projects" :key="project.id">
+        <div class="project-name">{{project.name}}</div>
+        <div class="project-date">{{project.createdOn}}</div>
+      </div>
+    </div> -->
+    <!-- <b-card-group class="project-card-section">
+      <b-card class="card-wrapper" v-for="project in projects" :key="project.id">
+        <card-Component :title="project.title" :year="project.year" :description="project.description" :demo-link="project.demoLink" />
+      </b-card>
+    </b-card-group> -->
+    <div class="main-section">
+  <div class="card">
+    <div>
+      <time>2022</time>
+      <a class="card-header" href="#">Keyboard Accordian</a>
+      <p>Play the accordion with your keyboard!</p>
+    </div>
+    <div class="anchored links">
+      <a class="button" href="#">Article</a>
+      <a class="button flex" href="#">Demo</a>
+    </div>
+  </div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+</div> 
+    </div>
+</template>
+
+<script>
+// import CardComponent from "@/components/molecules/cardComponent.vue";
+export default {
+  data(){
+    return  {
+      projects: [
+        {id: "1", title: "Project1", year: "February 15, 2023", description: "Description", demoLink: "#"},
+        {id: "2", title: "Project2", year: "February 15, 2023", description: "Description", demoLink: "#"},
+        {id: "3", title: "Project3", year: "February 15, 2023", description: "Description", demoLink: "#"},
+        {id: "4", title: "Project4", year: "February 15, 2023", description: "Description", demoLink: "#"},
+      ],
+    }
+  },
+  // components: {
+  //   CardComponent,
+  // }
+}
+</script>
+
+
+<style scoped>
+.project-container {
+  color: #f9f9f9;
+  align-items: center;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0;
+}
+.projects {
+  font-size: 3rem;
+  font-weight: 700;
+}
+button {
+  align-items: center;
+  background: rgb(37, 37, 37);
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 6px;
+  color: rgb(230, 230, 230);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 500;
+  gap: 0.25rem;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 0.75rem 1.2rem;
+  white-space: nowrap;
+}
+.project-box {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: transparent;
+  border-bottom: 1px solid #2c2c2c;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.project-name {
+  color: white;
+}
+.project-date {
+  color: #5eddac;
+}
+.project-card-section {
+  font-size: 1.5rem;
+  padding: 0.4rem 0;
+  text-decoration: none;
+  gap: 2rem;
+}
+.card-body {
+  padding: 0px !important;
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #181818;
+}
+.card {
+  width: 300px;
+  height: 280px;
+  margin: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+    background: #1f1f1f;
+      border: 1px solid #2c2c2c;
+      border-radius: 6px;
+      padding: 2rem;
+}
+.card time {
+  color: #f57ad0;
+    display: block;
+    font-family: Menlo,"IBM Plex Mono",Menlo,monospace;
+    font-size: 1.3rem;
+    letter-spacing: -.01rem;
+}
+.card a.card-header {
+  border: 0;
+  color: white;
+  display: block;
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0.1rem 0 0.5rem;
+  padding: 0;
+  text-decoration: none;
+}
+.card p {
+    color: #999;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size: .9rem;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+a.button {
+    align-items: center;
+    -webkit-appearance: none;
+    background: #252525;
+    border: 1px solid #2c2c2c;
+    border-radius: 6px;
+    color: #e6e6e6;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 0.25rem;
+    letter-spacing: 0;
+    line-height: 1;
+    padding: 0.75rem 1.2rem;
+    white-space: nowrap;
+    text-decoration: none;
+}
+@media screen and (max-width: 900px){
+  .projects {
+  font-size: 2rem;
+  font-weight: 700;
+}
+}
+@media screen and (max-width: 790px){
+  .card {
+  width: 100%;
+  height: 280px;
+  margin: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+   background: #1f1f1f;
+      border: 1px solid #2c2c2c;
+      border-radius: 6px;
+      padding: 2rem;
+}
+}
+</style>
