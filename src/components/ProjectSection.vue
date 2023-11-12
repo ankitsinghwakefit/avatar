@@ -19,12 +19,12 @@
   <div class="card" v-for="project in projects" :key="project.id">
     <div>
       <time>{{project.year}}</time>
-      <a class="card-header" href="#">{{project.title}}</a>
+      <a class="card-header" :href="project.demoLink" target="_blank">{{project.title}}</a>
       <p>{{project.description}}</p>
     </div>
     <div class="anchored links">
-      <a class="button" :href="project.articleLink">Article</a>
-      <a class="button flex" :href="project.demoLink">Demo</a>
+      <a class="button" target="_blank" :href="project.articleLink">Article</a>
+      <a class="button flex" target="_blank" :href="project.demoLink">Demo</a>
     </div>
   </div>
   <!-- <div class="card"></div>
@@ -43,10 +43,10 @@ export default {
   data(){
     return  {
       projects: [
-        {id: "1", title: "Project1", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
-        {id: "2", title: "Project2", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
-        {id: "3", title: "Project3", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
-        {id: "4", title: "Project4", year: "2023", description: "Description", demoLink: "#", articleLink: "#"},
+        {id: "1", title: "Car Racing", year: "2020", description: "Prototype of car race", demoLink: "https://neon-platypus-a5c384.netlify.app/", articleLink: "#"},
+        {id: "2", title: "Standalone Dropdown", year: "2021", description: "Prototype of dropdown", demoLink: "https://peaceful-lamarr-7f3e3d.netlify.app/", articleLink: "#"},
+        {id: "3", title: "John Wiley & Sons", year: "2022", description: "Learning anything easy", demoLink: "https://www.dummies.com/", articleLink: "https://www.dummies.com/about-for-dummies/"},
+        {id: "4", title: "Telefónica Germany", year: "2023", description: "WhatsApp SIM", demoLink: "https://www.whatsappsim.de/plp.html", articleLink: "https://www.telefonica.de/news/corporate/2020/02/whatsapper-aufgepasst-whatsapp-sim-stockt-tarifoptionen-deutlich-auf-und-ueberarbeitet-app-design.html"},
       ],
     }
   },

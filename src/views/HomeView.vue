@@ -1,7 +1,7 @@
 <template>
   <div class="home-wrapper">
     <b-container fluid>
-    <h1><img class="logo" src="@/assets/floppylogo.png"/> Ankit Singh</h1>
+    <h1><img class="logo" src="@/assets/floppylogo.png"/>Ankit Singh</h1>
       <b-row>
         <b-col><nav-bar /></b-col>
       </b-row>

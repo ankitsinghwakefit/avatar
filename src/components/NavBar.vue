@@ -3,8 +3,9 @@
     <b-navbar toggleable="lg" type="dark" variant="info">
       <b-navbar-brand active :to="{name: 'about'}">About</b-navbar-brand>
       <b-navbar-brand href="#">Projects</b-navbar-brand>
-          <b-navbar-brand href="#">Journey</b-navbar-brand>
-          <b-navbar-brand href="#">Github</b-navbar-brand>
+          <b-navbar-brand :to="{name: 'journey'}">Journey</b-navbar-brand>
+          <b-navbar-brand href="https://github.com/ankitsinghwakefit" target="_blank">Github</b-navbar-brand>
+          <b-navbar-brand :to="{name: 'home'}">Home</b-navbar-brand>
       <!-- <b-navbar-toggle target="nav-collapse"></b-navbar-toggle> -->
 
       <!-- <b-collapse id="nav-collapse" is-nav>
