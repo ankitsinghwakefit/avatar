@@ -5,7 +5,7 @@
       <b-row>
         <b-col><nav-bar /></b-col>
       </b-row>
-      <h1>Projects</h1>
+      <h1 class="project-heading">Projects</h1>
       <div class="project-preview">
         <div
           v-for="project in projects"
@@ -15,7 +15,7 @@
           <!-- <div class="stars">
             <div class="star">
               <a
-                href="https://github.com/taniarascia/taniarascia.com/stargazers"
+                href="#/stargazers"
                 >1,924</a
               >
               <svg
@@ -34,10 +34,10 @@
             <time>2022</time>
             <a
               class="card-header"
-              href="https://github.com/taniarascia/taniarascia.com"
+              href="#"
               target="_blank"
               rel="noreferrer"
-              >taniarascia.com</a
+              >singhankit.netlify.app</a
             >
             <p>The source of this website.</p>
           </div>
@@ -189,10 +189,14 @@ h1 {
   color: #f9f9f9 !important;
   font-size: 30px !important;
 }
+.project-heading {
+  color: #f9f9f9 !important;
+  font-size: 30px !important;
+  margin: 2rem 0rem !important;
+}
 .project-preview {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3,1fr);
 }
 .card {
   background: #1f1f1f !important;

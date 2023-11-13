@@ -3,7 +3,7 @@
     <div class="hero-container">
       <div md class="intro">
         <h1>About me</h1><br />
-        <h4>Hey, I'm Tania! I'm a software developer working in Chicago. Welcome to my spot on the web for my projects, tutorials, art, musings, and anything else I want to show the world. Check out the projects page to see a highlight of my open-source work, and the blog for my tutorials and more.</h4><br />
+        <h4>Hey, I'm Ankit! I'm a software developer working in Chicago. Welcome to my spot on the web for my projects, tutorials, art, musings, and anything else I want to show the world. Check out the projects page to see a highlight of my open-source work, and the blog for my tutorials and more.</h4><br />
         <h4>My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world. Although the tide is against me, I want to make the internet a better place, even if it's just right here. I hope I will inspire others to make their own creative corner on the web as well.</h4><br />
         <!-- <h4>You can contact me by email at <u><strong>hello</strong></u> at <u><strong>taniarascia.com</strong></u> to say hi! I always appreciate meeting new people.</h4><br />
         <ul>
@@ -23,9 +23,9 @@
     <div class="details-container">
       <h4>You can contact me by email at <u><strong>hello</strong></u> at <u><strong>taniarascia.com</strong></u> to say hi! I always appreciate meeting new people.</h4><br />
       <ul>
-        <li><a href="https://taniarascia.substack.com">Newsletter</a></li>
-        <li><a href="https://github.com/taniarascia">GitHub</a></li>
-        <li><a href="https://twitter.com/taniarascia">Twitter</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Twitter</a></li>
       </ul>
       <h2>Tools</h2>
       <h3>Software</h3>
