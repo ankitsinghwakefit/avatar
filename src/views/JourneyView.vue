@@ -18,7 +18,7 @@ import FooterSection from "@/components/FooterSection.vue";
 // import HeroSection from "@/components/HeroSection.vue";
 import JourneySection from "@/components/JourneySection.vue";
 export default {
-  name: "AboutView",
+  name: "JourneyView",
   components: {
     NavBar,
     JourneySection,

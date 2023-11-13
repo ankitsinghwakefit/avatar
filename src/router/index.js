@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import JourneyView from '../views/JourneyView.vue'
+import ProjectView from '../views/ProjectView.vue'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,11 @@ const routes = [
     path: '/journey',
     name: 'journey',
     component: JourneyView
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: ProjectView
   },
 ]
 
