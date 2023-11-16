@@ -46,7 +46,7 @@
               href="#"
               target="_blank"
               rel="noreferrer"
-              >{{project.name}}</a
+              >{{project.title}}</a
             >
             <p>{{project.description}}</p>
           </div>

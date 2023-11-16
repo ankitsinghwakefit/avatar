@@ -4,27 +4,120 @@
       <div class="cd-timeline-img cd-picture"></div>
 
       <div class="cd-timeline-content">
-        <h2>Penta Consulting</h2>
+        <h2>Tech Mahindra</h2>
         <div class="timeline-content-info">
           <span class="timeline-content-info-title">
             <i class="fa fa-certificate" aria-hidden="true"></i>
-            Front End Developer
+            Senior Software Engineer
           </span>
           <span class="timeline-content-info-date">
             <i class="fa fa-calendar-o" aria-hidden="true"></i>
-            June 2016 - Present
+            May 2022 - Present
           </span>
         </div>
         <p>
-          Working alongside the designer team implementing the designs, also
-          developing custom solutions to address team necessities.
+          Working on a 5G technology product with Telefonica Germany GmbH & Co.
+        </p>
+        <p>
+          Meeting with development managers to discuss software projects.
+        </p>
+        <p>
+          Assigning tasks to junior developers such as coding, testing, debugging, and analytics.
+        </p>
+        <p>
+          Creating technical documents and writing programming code for creating reusable components.
+        </p>
+        <ul class="content-skills">
+          <li>Nodejs</li>
+          <li>Expressjs</li>
+          <li>VueX</li>
+          <li>JavaScript</li>
+          <li>Vuejs</li>
+          <li>Nuxtjs</li>
+          <li>jest</li>
+          <li>BootstrapVue</li>
+        </ul>
+      </div>
+      <!-- cd-timeline-content -->
+    </div>
+    <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location"></div>
+      <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Happiest Minds</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Software Engineer
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            May 2021 - May 2022
+          </span>
+        </div>
+        <p>
+          Worked on a project with Wiley John & Sons.
+        </p>
+        <p>
+          Strictly following DRY principle and reusable componet structure.
+        </p>
+        <p>
+          API endpoints creation and integration with frontend apps.
+        </p>
+        <p>
+          Using modular structure for creating reusable components.
+        </p>
+        <ul class="content-skills">
+          <li>Nodejs</li>
+          <li>Expressjs</li>
+          <li>JavaScript</li>
+          <li>Vuejs</li>
+          <li>Github</li>
+          <li>Nuxtjs</li>
+        </ul>
+      </div>
+      <!-- cd-timeline-content -->
+    </div>
+
+       <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture"></div>
+      <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Jalan technologies</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Software Engineer
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            May 2020 - May 2021
+          </span>
+        </div>
+        <p>
+        Document and maintain software functionality
+        </p>
+        <p>
+          Converting figma designs to fully responsive web pages.
+        </p>
+        <p>
+          Handling frontend and backend to deliver full stack apps.
+        </p>
+        <p>
+          Integrate software components into a fully functional software system.
         </p>
         <ul class="content-skills">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>Wordpress</li>
+          <li>Vuejs</li>
+          <li>Vuex</li>
         </ul>
       </div>
       <!-- cd-timeline-content -->
@@ -36,71 +129,40 @@
       <!-- cd-timeline-img -->
 
       <div class="cd-timeline-content">
-        <h2>Title of section 2</h2>
+        <h2>AltCampus</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Full stack engineer - trainee
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            June 2019 - May 2020
+          </span>
+        </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-          optio, dolorum provident rerum aut hic quasi placeat iure tempora
-          laudantium ipsa ad debitis unde?
+          Assist the senior full stack developers in software development projects.
         </p>
-        <span class="cd-date">Jan 18</span>
+        <p>
+          API integration in front end for fetch/create/update/delete flow.
+        </p>
+        <p>
+          Responsive UI screens to all screen types.
+        </p>
+        <ul class="content-skills">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Vuejs</li>
+          <li>Expressjs</li>
+        </ul>
       </div>
       <!-- cd-timeline-content -->
     </div>
+
     <!-- cd-timeline-block -->
 
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-picture"></div>
-      <!-- cd-timeline-img -->
-
-      <div class="cd-timeline-content">
-        <h2>Title of section 3</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
-          obcaecati, quisquam id molestias eaque asperiores voluptatibus
-          cupiditate error assumenda delectus odit similique earum voluptatem
-          doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt
-          corporis vero ipsum nisi eius odio natus ullam provident pariatur
-          temporibus quia eos repellat consequuntur perferendis enim amet quae
-          quasi repudiandae sed quod veniam dolore possimus rem voluptatum
-          eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.
-        </p>
-        <span class="cd-date">Jan 24</span>
-      </div>
-      <!-- cd-timeline-content -->
-    </div>
-    <!-- cd-timeline-block -->
-
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-location"></div>
-      <!-- cd-timeline-img -->
-
-      <div class="cd-timeline-content">
-        <h2>Title of section 4</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-          optio, dolorum provident rerum aut hic quasi placeat iure tempora
-          laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui
-          ut.
-        </p>
-        <span class="cd-date">Feb 14</span>
-      </div>
-      <!-- cd-timeline-content -->
-    </div>
-    <!-- cd-timeline-block -->
-
-    <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-location"></div>
-
-      <div class="cd-timeline-content">
-        <h2>Title of section 5</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-          optio, dolorum provident rerum.
-        </p>
-        <span class="cd-date">Feb 18</span>
-      </div>
-      <!-- cd-timeline-content -->
-    </div>
+    
     <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
@@ -108,9 +170,33 @@
       <!-- cd-timeline-img -->
 
       <div class="cd-timeline-content">
-        <h2>Final Section</h2>
-        <p>This is the content of the last section</p>
-        <span class="cd-date">Feb 26</span>
+        <h2>AGL (GAIL & HPCL)</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Mechanical Engineer
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            July 2017 - May 2019
+          </span>
+        </div>
+        <p>
+          Monitoring of LCV for smooth & uninterrupted supply of CNG through cascades to Daughter station day-to-day basis.
+        </p>
+        <p>
+          Monthly Maintenance of Dispenser installed at Online & Daughter CNG Station.
+        </p>
+        <p>
+          Monthly Maintenance of Compressors installed at Online CNG Station.
+        </p>
+        <ul class="content-skills">
+          <li>Dispenser</li>
+          <li>Compressor</li>
+          <li>O&M</li>
+          <li>LCV</li>
+          <li>CNG</li>
+        </ul>
       </div>
       <!-- cd-timeline-content -->
     </div>

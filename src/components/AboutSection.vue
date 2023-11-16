@@ -3,8 +3,8 @@
     <div class="hero-container">
       <div md class="intro">
         <h1>About me</h1><br />
-        <h4>Hey, I'm Ankit! I'm a software developer working in Chicago. Welcome to my spot on the web for my projects, tutorials, art, musings, and anything else I want to show the world. Check out the projects page to see a highlight of my open-source work, and the blog for my tutorials and more.</h4><br />
-        <h4>My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world. Although the tide is against me, I want to make the internet a better place, even if it's just right here. I hope I will inspire others to make their own creative corner on the web as well.</h4><br />
+        <h4>Hey, I'm Ankit! I'm a software developer working in India. Welcome to my spot on the web for my projects, tutorials, art, musings, and anything else I want to show the world. Check out the projects page to see a highlight of my open-source work, and the blog for my tutorials and more.</h4><br />
+        <h4>I completed my graduation in Mechanical Engineering but switched to IT because I always wanted to Create something that can impact society and to learn new stuff and keep evolving. Although the tide is against me, I want to make the internet a better place, even if it's just right here. I hope I will inspire others to make their own creative corner on the web as well.</h4><br />
         <!-- <h4>You can contact me by email at <u><strong>hello</strong></u> at <u><strong>taniarascia.com</strong></u> to say hi! I always appreciate meeting new people.</h4><br />
         <ul>
           <li><a href="https://taniarascia.substack.com">Newsletter</a></li>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="details-container">
-      <h4>You can contact me by email at <u><strong>hello</strong></u> at <u><strong>taniarascia.com</strong></u> to say hi! I always appreciate meeting new people.</h4><br />
+      <h4>You can contact me by email at <u><strong>ankitsinghwakefit</strong></u> at <u><strong>gmail.com</strong></u> to say hi! I always appreciate meeting new people.</h4><br />
       <ul>
         <li><a href="#">Newsletter</a></li>
         <li><a href="#">GitHub</a></li>
@@ -30,8 +30,8 @@
       <h2>Tools</h2>
       <h3>Software</h3>
       <ul>
-        <li>This website is hosted on <a href="https://netlify.com">Netlify</a> and uses the <a href="https://www.gatsbyjs.com/">Gatsby</a> framework</li>
-        <li><strong>Coding</strong>: <a href="https://code.visualstudio.com/">Visual Studio Code</a> with <a href="https://taniarascia.github.io/new-moon">New Moon Theme</a></li>
+        <li>This website is hosted on <a href="https://netlify.com">Netlify</a> and uses the <a href="https://www.gatsbyjs.com/">Vuejs</a> framework</li>
+        <li><strong>Coding</strong>: <a href="https://code.visualstudio.com/">Visual Studio Code</a> with <a href="#">New Moon Theme</a></li>
         <li><strong>Terminal</strong>: <a href="https://iterm2.com/">iTerm2</a></li>
         <li><strong>Notes</strong>: <a href="https://obsidian.md/">Obsidian</a></li>
         <li><strong>Music</strong>: <a href="https://www.spotify.com/">Spotify</a></li>

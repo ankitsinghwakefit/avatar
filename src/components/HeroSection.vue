@@ -14,6 +14,8 @@
 </template>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .hero-container {
   display: flex;
   align-items: center;
@@ -22,12 +24,17 @@
   width: 50%;
   padding: 90px 10px;
   color: #f9f9f9 !important;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Arial, sans-serif;
 }
 h1 {
-  font-size: 4rem !important;
+  font-size: 3rem !important;
 }
 h3 {
   line-height: 1.6;
+}
+h4 {
+  font-size: 20px !important;
 }
 .image {
   width: 40%;

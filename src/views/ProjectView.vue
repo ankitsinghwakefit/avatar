@@ -13,22 +13,22 @@
           class="card anchored large"
         >
           <div>
-            <time>2022</time>
+            <time>{{project.year}}</time>
             <a
               class="card-header"
               href="#"
               target="_blank"
               rel="noreferrer"
-              >singhankit.netlify.app</a
+              >{{project.title}}</a
             >
-            <p>The source of this website.</p>
+            <p>{{project.description}}</p>
           </div>
           <div class="links anchored">
             <a class="button small" href="/musical-instrument-web-audio-api"
               >Article</a
             ><a
               class="button small flex"
-              href="https://www.keyboardaccordion.com"
+              :href="project.demoLink"
               target="_blank"
               rel="noreferrer"
               >Demo
@@ -50,7 +50,7 @@
                 </g></svg></a
             ><a
               class="button small flex"
-              href="https://github.com/taniarascia/accordion"
+              :href="project.articleLink"
               target="_blank"
               rel="noreferrer"
               >Source
