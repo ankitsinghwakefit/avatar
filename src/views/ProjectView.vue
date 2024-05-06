@@ -24,9 +24,7 @@
             <p>{{project.description}}</p>
           </div>
           <div class="links anchored">
-            <a class="button small" href="/musical-instrument-web-audio-api"
-              >Article</a
-            ><a
+            <a
               class="button small flex"
               :href="project.demoLink"
               target="_blank"
@@ -50,7 +48,7 @@
                 </g></svg></a
             ><a
               class="button small flex"
-              :href="project.articleLink"
+              :href="project.sourceLink"
               target="_blank"
               rel="noreferrer"
               >Source
@@ -83,8 +81,7 @@
 // @ is an alias to /src
 import NavBar from "@/components/NavBar.vue";
 import FooterSection from "@/components/FooterSection.vue";
-// import HeroSection from "@/components/HeroSection.vue";
-// import JourneySection from "@/components/JourneySection.vue";
+import projectsData from "@/assets/projectData/projects.json";
 export default {
   name: "ProjectView",
   components: {
@@ -94,58 +91,7 @@ export default {
   },
   data() {
     return {
-      projects: [
-        {
-          id: "1",
-          title: "Car Racing",
-          year: "2020",
-          description: "Prototype of car race",
-          demoLink: "https://neon-platypus-a5c384.netlify.app/",
-          articleLink: "#",
-        },
-        {
-          id: "2",
-          title: "Standalone Dropdown",
-          year: "2021",
-          description: "Prototype of dropdown",
-          demoLink: "https://peaceful-lamarr-7f3e3d.netlify.app/",
-          articleLink: "#",
-        },
-        {
-          id: "3",
-          title: "John Wiley & Sons",
-          year: "2022",
-          description: "Learning anything easy",
-          demoLink: "https://www.dummies.com/",
-          articleLink: "https://www.dummies.com/about-for-dummies/",
-        },
-        {
-          id: "4",
-          title: "Telefónica Germany",
-          year: "2023",
-          description: "WhatsApp SIM",
-          demoLink: "https://www.whatsappsim.de/plp.html",
-          articleLink:
-            "https://www.telefonica.de/news/corporate/2020/02/whatsapper-aufgepasst-whatsapp-sim-stockt-tarifoptionen-deutlich-auf-und-ueberarbeitet-app-design.html",
-        },
-        {
-          id: "5",
-          title: "John Wiley & Sons",
-          year: "2022",
-          description: "Learning anything easy",
-          demoLink: "https://www.dummies.com/",
-          articleLink: "https://www.dummies.com/about-for-dummies/",
-        },
-        {
-          id: "6",
-          title: "Telefónica Germany",
-          year: "2023",
-          description: "WhatsApp SIM",
-          demoLink: "https://www.whatsappsim.de/plp.html",
-          articleLink:
-            "https://www.telefonica.de/news/corporate/2020/02/whatsapper-aufgepasst-whatsapp-sim-stockt-tarifoptionen-deutlich-auf-und-ueberarbeitet-app-design.html",
-        }
-      ],
+      projects: projectsData,
     };
   },
 };
